@@ -1,0 +1,4 @@
+project=tutorium
+architecture=container
+test=minitest
+template=erb
