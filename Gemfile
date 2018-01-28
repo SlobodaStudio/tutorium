@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+ruby '2.3.0'
+
 gem 'bundler'
 gem 'rake'
 gem 'hanami',       '~> 0.9'
