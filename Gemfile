@@ -2,10 +2,9 @@ source 'https://rubygems.org'
 
 ruby '2.3.0'
 
-gem 'bundler'
 gem 'rake'
-gem 'hanami',       '~> 0.9'
-gem 'hanami-model', '~> 0.7'
+gem 'hanami',       '~> 1.1'
+gem 'hanami-model', '~> 1.1'
 
 gem 'pg'
 
@@ -13,6 +12,7 @@ group :development do
   # Code reloading
   # See: http://hanamirb.org/guides/projects/code-reloading
   gem 'shotgun'
+  gem 'rubocop'
 end
 
 group :test, :development do
