@@ -5,7 +5,7 @@ ruby '2.3.0'
 gem 'rake'
 gem 'hanami',       '~> 1.1'
 gem 'hanami-model', '~> 1.1'
-
+gem 'nokogiri', '~> 1.8.1'
 gem 'pg'
 
 group :development do

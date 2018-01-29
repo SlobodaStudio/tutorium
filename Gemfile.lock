@@ -106,10 +106,10 @@ GEM
       mime-types-data (~> 3.2015)
     mime-types-data (3.2016.0521)
     mini_mime (1.0.0)
-    mini_portile2 (2.1.0)
+    mini_portile2 (2.3.0)
     minitest (5.10.1)
-    nokogiri (1.6.8.1)
-      mini_portile2 (~> 2.1.0)
+    nokogiri (1.8.2)
+      mini_portile2 (~> 2.3.0)
     parallel (1.12.1)
     parser (2.4.0.2)
       ast (~> 2.3)
@@ -172,11 +172,15 @@ DEPENDENCIES
   hanami (~> 1.1)
   hanami-model (~> 1.1)
   minitest
+  nokogiri (~> 1.8.1)
   pg
   puma
   rake
   rubocop
   shotgun
+
+RUBY VERSION
+   ruby 2.3.0p0
 
 BUNDLED WITH
    1.16.1
